@@ -1,5 +1,5 @@
 # PIR_MARZAGALLI_Francesco
 
-This presentition gives a little insight on the scientific proposal of my PIR, which is dedicated to "Aerostructural optimisation in OpenAeroStruct
-with an additional constraint on flutter"
+This presentition gives a little insight on the scientific proposal of my PIR, which is dedicated to "Modelisation of a hinged wingtip in NeoCASS
+based on Airbus AlbatrossONE"
  
