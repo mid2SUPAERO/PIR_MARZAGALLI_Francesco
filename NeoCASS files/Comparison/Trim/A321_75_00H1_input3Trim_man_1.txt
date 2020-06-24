@@ -1,0 +1,238 @@
+
+FLIGHT CONDITION
+
+ Speed:    230.178 [m/s].
+ Mach:     0.78 [-].
+ Density:  0.363891 [kg/m^3].
+ Altitude: 11000 [m].
+
+ATTITUDE
+
+ X acc:      UNKNOWN.
+ Y acc:      0 [m/s^2].
+ Z acc:      0 [m/s^2].
+ P-DOT:      0 [rad/s^2].
+ Q-DOT:      0 [rad/s^2].
+ R-DOT:      0 [rad/s^2].
+ Alpha:      UNKNOWN.
+ Sideslip:   0 [deg].
+ Roll rate:  0 [-] (p*BREF/(2VREF)).
+ Pitch rate: 0 [-] (q*CREF/(2VREF)).
+ Yaw rate:   0 [-] (r*BREF/(2VREF)).
+
+TRIM PROBLEM
+
+ Number of unknowns:          3.
+ Number of equations allowed: 3.
+ Method: linear system solution.
+
+REFERENCE VALUES
+
+ Reference chord:   2.72 [m].
+ Reference span:    45 [m].
+ Reference surface: 2.4 [m^2].
+ Reference point for moments: 22.255,0,2.2e-18 [m].
+ Reference point for rates and stability: 22.255,0,2.2e-18 [m].
+
+MASTER CONTROLS
+
+ flap1r: 0 [deg].
+ flap2r: 0 [deg].
+ aileronr: 0 [deg].
+ elev1r: UNKNOWN.
+ rudder1: 0 [deg].
+
+RIGID TRIM RESULTS
+
+ - X acc:      5.01487e-08 [m/s^2].
+ - Y acc:      0 [m/s^2].
+ - Z acc:      9.81 [m/s^2].
+ - P-DOT:      0 [rad/s^2].
+ - Q-DOT:      0 [rad/s^2].
+ - R-DOT:      0 [rad/s^2].
+
+ - Alpha:      5.17573 [deg].
+ - Sideslip:   0 [deg].
+ - Roll rate:  0 [-] (p*BREF/(2VREF)).
+ - Pitch rate: 0 [-] (q*CREF/(2VREF)).
+ - Yaw rate:   0 [-] (r*BREF/(2VREF)).
+ - Control flap1r:   0 [deg].
+ - Control flap2r:   0 [deg].
+ - Control aileronr:   0 [deg].
+ - Control elev1r:   -4.27682 [deg].
+ - Control rudder1:   0 [deg].
+
+ Reference intercepts
+
+ - Cy0: 5.08939e-07.
+ - Cz0: 0.09751.
+ - Cl0: -1.08908e-06.
+ - Cm0: 5.2736.
+ - Cn0: 4.00475e-09.
+
+ Reference hinge intercepts
+
+ - flap1r: -0.000519881.
+ - flap2r: 0.000569258.
+ - aileronr: -2.27682e-18.
+ - elev1r: 0.00178411.
+ - rudder1: -1.8354e-18.
+
+ELASTIC TRIM RESULTS
+
+ - X acc:      1.53174e-08 [m/s^2].
+ - Y acc:      0 [m/s^2].
+ - Z acc:      9.81 [m/s^2].
+ - P-DOT:      0 [rad/s^2].
+ - Q-DOT:      0 [rad/s^2].
+ - R-DOT:      0 [rad/s^2].
+
+ - Alpha:      6.38172 [deg].
+ - Sideslip:   0 [deg].
+ - Roll rate:  0 [-] (p*BREF/(2VREF)).
+ - Pitch rate: 0 [-] (q*CREF/(2VREF)).
+ - Yaw rate:   0 [-] (r*BREF/(2VREF)).
+ - Control flap1r:   0 [deg].
+ - Control flap2r:   0 [deg].
+ - Control aileronr:   0 [deg].
+ - Control elev1r:   -5.93132 [deg].
+ - Control rudder1:   0 [deg].
+
+ Reference intercepts
+
+ - Cy0: 2.80685e-07.
+ - Cz0: 0.963918.
+ - Cl0: -2.45045e-06.
+ - Cm0: 4.64993.
+ - Cn0: -3.75842e-08.
+
+AERODYNAMIC DERIVATIVES
+
+ALPHA
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/alpha            -0.00004            -0.00003            0.71409             
+ Cz/alpha            389.76071           310.27342           0.79606             
+ Cl/alpha            0.00011             0.00030             2.78303             
+ Cm/alpha            -64.68804           -44.65799           0.69036             
+ Cn/alpha            -0.00000            0.00000             -10.47004           
+
+BETA
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/beta             26.77541            26.15720            0.97691             
+ Cz/beta             0.00017             0.00009             0.55009             
+ Cl/beta             -7.91425            -6.98710            0.88285             
+ Cm/beta             0.00008             0.00010             1.22776             
+ Cn/beta             9.69474             9.56352             0.98647             
+
+ROLL RATE
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/p                13.26712            9.22368             0.69523             
+ Cz/p                0.00006             -0.00003            -0.50925            
+ Cl/p                -30.51667           -16.82745           0.55142             
+ Cm/p                0.00011             0.00010             0.89646             
+ Cn/p                1.11928             1.18008             1.05432             
+
+PITCH RATE
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/q                -0.00005            -0.00002            0.40404             
+ Cz/q                928.68481           880.94353           0.94859             
+ Cl/q                0.00012             0.00021             1.70479             
+ Cm/q                -6921.36994         -6621.07056         0.95661             
+ Cn/q                -0.00001            -0.00000            0.41431             
+
+YAW RATE
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/r                -22.38682           -22.28219           0.99533             
+ Cz/r                -0.00000            -0.00001            3.68070             
+ Cl/r                1.97171             2.81551             1.42795             
+ Cm/r                -0.00001            -0.00000            0.18895             
+ Cn/r                -9.06572            -8.91098            0.98293             
+
+flap1r
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/Delta            -0.00000            -0.00000            0.59912             
+ Cz/Delta            56.60001            49.48469            0.87429             
+ Cl/Delta            0.00001             0.00002             2.38974             
+ Cm/Delta            82.58561            73.50947            0.89010             
+ Cn/Delta            0.00000             0.00000             5.51774             
+ Ch/alpha            -0.24624            
+ Ch/beta             -0.00000            
+ Ch/p                0.00000             
+ Ch/q                -0.56188            
+ Ch/r                -0.00000            
+ Ch/Delta            -0.74968            
+
+flap2r
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/Delta            -0.00001            -0.00001            0.72766             
+ Cz/Delta            54.81056            29.48449            0.53793             
+ Cl/Delta            0.00002             0.00006             2.56408             
+ Cm/Delta            -22.97541           -20.88906           0.90919             
+ Cn/Delta            -0.00000            0.00000             -12.29477           
+ Ch/alpha            -0.22366            
+ Ch/beta             -0.00000            
+ Ch/p                0.00000             
+ Ch/q                -0.31478            
+ Ch/r                -0.00000            
+ Ch/Delta            -0.42743            
+
+aileronr
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/Delta            -1.17863            0.15440             -0.13100            
+ Cz/Delta            -0.00001            0.00000             -0.31428            
+ Cl/Delta            5.06555             0.15393             0.03039             
+ Cm/Delta            -0.00002            -0.00000            0.15776             
+ Cn/Delta            -0.04232            -0.02281            0.53905             
+ Ch/alpha            0.00000             
+ Ch/beta             0.00298             
+ Ch/p                0.02418             
+ Ch/q                0.00000             
+ Ch/r                0.00042             
+ Ch/Delta            -0.06349            
+
+elev1r
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/Delta            0.00000             0.00000             0.10150             
+ Cz/Delta            29.33907            23.24979            0.79245             
+ Cl/Delta            -0.00000            -0.00000            1.84645             
+ Cm/Delta            -204.23382          -144.89066          0.70944             
+ Cn/Delta            -0.00000            -0.00000            0.90979             
+ Ch/alpha            -0.20269            
+ Ch/beta             0.00000             
+ Ch/p                0.00000             
+ Ch/q                -5.39267            
+ Ch/r                0.00000             
+ Ch/Delta            -0.63129            
+
+rudder1
+
+ NAME                RIGID               ELASTIC             RATIO E/R
+ Cy/Delta            -19.74896           -19.19617           0.97201             
+ Cz/Delta            0.00000             -0.00000            -2.51157            
+ Cl/Delta            1.91964             2.33983             1.21889             
+ Cm/Delta            -0.00004            -0.00004            0.86946             
+ Cn/Delta            -8.36709            -8.07201            0.96473             
+ Ch/alpha            0.00000             
+ Ch/beta             0.46300             
+ Ch/p                0.03957             
+ Ch/q                0.00000             
+ Ch/r                -0.56813            
+ Ch/Delta            -1.40064            
+
+STABILITY
+
+ NAME                                     RIGID               ELASTIC
+ Center of gravity            XG/CREF    7.73884             
+ Neutral point at fixed stick XN/CREF    7.91896             7.78703             
+ Control point at fixed stick XC/CREF    15.14314            14.41390            
+ Static margin          (XN-XCG)/CREF    0.18012             0.04818             
+ Static margin index (XN-XCG)/(XC-XN)    0.02493             0.00727             
