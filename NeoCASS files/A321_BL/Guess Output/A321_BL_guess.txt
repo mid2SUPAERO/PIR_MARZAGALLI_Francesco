@@ -1,0 +1,111 @@
+
+	-------------------------------------------- SUMMARY -----------------------------------------------
+	------------- Fuselage [Kg] -------------------------
+	
+	Ideal structural mass  1590.94
+	Total structure mass   3002.42
+	
+	------------- Semi-wingbox [Kg] ---------------------
+	
+	Bending material mass  284.40
+	Shear material mass     98.71
+	Predicted wingbox mass 383.11
+	Actual wingbox mass    1075.41
+	
+	------------- Wing Carrythrough [Kg] ----------------
+	
+	Bending material mass   376.29
+	Shear material mass      50.47
+	Torsion material mass   236.29
+	CarryThrough mass       663.06
+	Final CarryThrough mass 891.28
+	
+	------------- Wing [Kg] -----------------------------
+	
+	Ideal structural mass         2150.83
+	Structural mass               2117.06
+	Primary structure mass        2891.14
+	Total structure mass          3736.42
+	Total structure including CT  4627.70
+	
+	------------- Vertical tail [Kg] --------------------
+	
+	Ideal structural mass             764.33
+	Structural mass                   752.33
+	Primary structure mass            1027.42
+	Total structure mass              1327.80
+	Total structure mass including CT 1327.80
+	
+	------------- Horizontal tail [Kg] ------------------
+	
+	Ideal structural mass              584.08
+	Structural mass                    574.91
+	Primary structure mass             785.11
+	Total structure mass               1014.66
+	Total structure mass including  CT 1108.05
+	
+	------------- Item Masses [Kg] ---------------------
+	
+	Fuselage                           3002.42
+	Wing                               4627.70
+	Horizontal tail                    1108.05
+	Vertical tail                      1327.80
+	Interior                           7118.90
+	Systems                            6200.00
+	Nose landing gear                    0.00
+	Main landing gear                  3627.85
+	Engines1                           6996.66
+	Engines2                             0.00
+	Pilots                             170.00
+	Crew                               300.00
+
+	Passengers                         18143.80
+	Baggage                            1814.00
+	Central tank                       8200.00
+	Wing tank                          12400.00
+	Fuel wing span fraction from 11.8638 to 80 %
+	Aux. tank                          1700.00
+
+	------------- Item CG [m] from nose -----------------
+	
+	Fuselage                            21.42
+	Wing                                20.75
+	Horizontal tail                     41.44
+	Vertical tail                       40.26
+	Interior                            21.97
+	Systems                             21.27
+	Nose landing gear                    0.00
+	Main landing gear                   20.32
+	Engines1                            16.88
+	Engines2                             0.00
+	Pilots                               2.40
+	Crew                                19.76
+
+	Wing tank                           20.39
+	Central tank                        19.16
+	Aux. tank                            0.00
+	Passengers                          19.76
+	Baggage                             19.90
+
+	------------- Aircraft Weights [Kg] -----------------
+	
+	Operative Empty Weight  (OEW)  34520.91
+	Max Zero Fuel Weight    (MZFW) 54478.71
+	Maximum Take Off Weight (MTOW) 76778.71
+	
+	------------- Aircraft Balance [m] from nose --------
+	
+	Longitudinal Operative Empty Weight  CG  22.52
+	Longitudinal Max Zero Fuel Weight    CG  21.51
+	Longitudinal Maximum Take Off Weight CG  20.60
+	
+	------------- Aircraft MAC [m] ----------------------
+	
+	Wing mean aerodynamic chord MAC    4.25
+	Wing mean aerodynamic chord apex  18.03
+	
+	------------- Aircraft Balance wrt MAC --------------
+	
+	Longitudinal Operative Empty Weight  CG at MAC 105.66%
+	Longitudinal Max Zero Fuel Weight    CG at MAC  81.99%
+	Longitudinal Maximum Take Off Weight CG at MAC  60.58%
