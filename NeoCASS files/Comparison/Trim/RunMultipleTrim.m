@@ -104,12 +104,12 @@ set(0,'DefaultAxesColorOrder',ColorPlot );
 
 % spanwise plot of wing bending moment
 figure; hold on
-set(gca, 'fontsize', 18);
+set(gca, 'fontsize', 24);
 grid on
 xlabel('Span [m]');
 ylabel('M_z [Nm]');
-plot(SpanPoints_BL, BM_C_BL, '--k' , 'linewidth', 1.5); 
-plot(SpanPoints(1,:), BM_C, 'linewidth', 1.5);
+plot(SpanPoints_BL, BM_C_BL, '--k' , 'linewidth', 2); 
+plot(SpanPoints(1,:), BM_C, 'linewidth',  2);
 legend('Baseline',...
     '75%, Very low hinge stiffness','75%, low hinge stiffness','75%, medium hinge stiffness','75%, high hinge stiffness',...
     '81%, Vlow hinge stiffness','81%, low hinge stiffness','81%, medium hinge stiffness','81%, high hinge stiffness',...
@@ -117,9 +117,9 @@ legend('Baseline',...
     '88%, Vlow hinge stiffness','88%, low hinge stiffness','88%, medium hinge stiffness','88%, high hinge stiffness',...
     '93%, Vlow hinge stiffness','93%, low hinge stiffness','93%, medium hinge stiffness','93%, high hinge stiffness')
 if i == 1
-    title('Spanwise Bending Moment - Cruise')
+    %title('Spanwise Bending Moment - Cruise')
 elseif i == 2
-    title('Spanwise Bending Moment - 2g pull-up')
+    %title('Spanwise Bending Moment - 2g pull-up')
 end
 %=========================================================================================%
 %                                                                                         %
@@ -141,16 +141,16 @@ fprintf('%f\n', CB)
 
 % plot the WRBM as function of chosen stifnesses for different hinge position
 figure;
-semilogx(k, WRBM(2:5),'-om', k, WRBM(6:9),'-oy',k,WRBM(10:13),'-og',k,WRBM(14:17),'-or',k,WRBM(18:21),'-ob','linewidth',1.5)
+semilogx(k, WRBM(2:5),'-om', k, WRBM(6:9),'-oy',k,WRBM(10:13),'-og',k,WRBM(14:17),'-or',k,WRBM(18:21),'-ob','linewidth',2.5)
 grid on
-set(gca, 'fontsize', 18);
+set(gca, 'fontsize', 24);
 xlabel('Hinge stifness [Nm/rad]');
 ylabel('M_z [Nm]');
 legend('75%','81%','84%','88%','91%')
 if i == 1
-    title('Max Bending Moment - Cruise')
+    %title('Max Bending Moment - Cruise')
 elseif i == 2
-    title('Max Bending Moment - 2g pull-up')
+    %title('Max Bending Moment - 2g pull-up')
 end
 
 %===========================================================================================%
@@ -161,29 +161,30 @@ end
 
 if i == 1
     figure; hold on
-    set(gca, 'fontsize', 18);
+    set(gca, 'fontsize', 24);
     grid on
     xlabel('Span [m]');
     ylabel('M_z [Nm]');
-    plot(SpanPoints_BL, BM_C_BL, '--k' , 'linewidth', 1.5); 
-    plot(SpanPoints(1,:), BM_C(6,:),'color', [0.9961    0.6445    0], 'linewidth', 1.5);
-    plot(SpanPoints(1,:), BM_C(9,:), 'r', 'linewidth', 1.5);
+    plot(SpanPoints_BL, BM_C_BL, '--k' , 'linewidth', 2.5); 
+    plot(SpanPoints(1,:), BM_C(6,:),'color', [0.9961    0.6445    0], 'linewidth', 2.5);
+    plot(SpanPoints(1,:), BM_C(9,:), 'r', 'linewidth', 2.5);
     legend('Baseline','81% low hinge stifness', '84% Vlow hinge stifness')
-    title('Spanwise Bending moment - Cruise')
+    %title('Spanwise Bending moment - Cruise')
     
 elseif i == 2
     figure; hold on
-    set(gca, 'fontsize', 18);
+    set(gca, 'fontsize', 24);
     grid on
     xlabel('Span [m]');
     ylabel('M_z [Nm]');
-    plot(SpanPoints_BL, BM_C_BL, '--k' , 'linewidth', 1.5); 
-    plot(SpanPoints(1,:), BM_C(6,:),'color', [0.9961    0.6445    0], 'linewidth', 1.5);
-    plot(SpanPoints(1,:), BM_C(9,:), 'r', 'linewidth', 1.5);
+    plot(SpanPoints_BL, BM_C_BL, '--k' , 'linewidth', 2.5); 
+    plot(SpanPoints(1,:), BM_C(6,:),'color', [0.9961    0.6445    0], 'linewidth', 2.5);
+    plot(SpanPoints(1,:), BM_C(9,:), 'r', 'linewidth', 2.5);
     legend('Baseline','81% low hinge stifness', '84% Vlow hinge stifness')
-    title('Spanwise Bending moment - 2g pull-up maneuver')
+    %title('Spanwise Bending moment - 2g pull-up maneuver')
 end
 
+%%
 %=========================================================================================%
 %                                                                                         %
 %                                     SAVE DATA                                           %
