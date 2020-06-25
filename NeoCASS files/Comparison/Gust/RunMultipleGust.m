@@ -84,7 +84,7 @@ end
     Gust_profile = dyn_model.Res.Gust_profile;
     WRBM = wrbm_modac;
     WRTM = wrtm_modac;
-    
+%%  
 %color set definition for next plots    
 ColorPlot = [ 0.25      0.25      0.25;
               0.9961    0.7969    0.5977;
@@ -117,12 +117,12 @@ set(0,'DefaultAxesColorOrder',ColorPlot);
 %===========================================================================================%
 
 figure; hold on
-plot(time, CG_disp(1,:),'--','LineWidth',1.5)
-plot(time, CG_disp(2:end,:),'LineWidth',1.5)
-title('CG vertical displacement')
+plot(time, CG_disp(1,:),'--','LineWidth',2.5)
+plot(time, CG_disp(2:end,:),'LineWidth',2.5)
+%title('CG vertical displacement')
 xlabel('time [s]')
 ylabel('z [m]')
-set(gca,'fontsize',16)
+set(gca,'fontsize',24)
 grid on
 legend('Baseline',...
     '75%, Vlow hinge stiffness','75%, low hinge stiffness','75%, medium hinge stiffness','75%, high hinge stiffness',...
@@ -138,13 +138,13 @@ legend('Baseline',...
 %===========================================================================================%
 
 figure; hold on
-plot(time, WRBM(1,:),'--','LineWidth',1.5)
-plot(time, WRBM(2:end,:),'LineWidth',1.5)
-title('Wing-root Bending Moment')
+plot(time, WRBM(1,:),'--','LineWidth',2.5)
+plot(time, WRBM(2:end,:),'LineWidth',2.5)
+%title('Wing-root Bending Moment')
 xlabel('time [s]')
 ylabel('M_z [Nm]')
 grid on
-set(gca, 'fontsize', 16);
+set(gca, 'fontsize', 24);
 legend('Baseline',...
     '75%, Vlow hinge stiffness','75%, low hinge stiffness','75%, medium hinge stiffness','75%, high hinge stiffness',...
     '81%, Vlow hinge stiffness','81%, low hinge stiffness','81%, medium hinge stiffness','81%, high hinge stiffness',...
@@ -159,13 +159,13 @@ legend('Baseline',...
 %===========================================================================================%
    
 figure; hold on
-set(gca, 'fontsize', 20);
+set(gca, 'fontsize', 24);
 grid on; 
 xlabel('Time [s]');
 ylabel('Vg [m/s]');
-title('Gust profile')
+%title('Gust profile')
 axis([0 2 0 16])
-plot(time, Gust_profile, 'b', 'linewidth', 1.5);
+plot(time, Gust_profile, 'b', 'linewidth', 2.5);
 
 %===========================================================================================%
 %                                                                                           %
@@ -187,12 +187,12 @@ fprintf('%f\n', CBM)
 
 % plot the maximum WRBM as function of chosen stifnesses  for different hinge position
 figure;
-semilogx(k, max_WRBM(2:5),'-om', k, max_WRBM(6:9),'-oy',k,max_WRBM(10:13),'-og',k,max_WRBM(14:17),'-or',k,max_WRBM(18:21),'-ob','linewidth',1.5)
+semilogx(k, max_WRBM(2:5),'-om', k, max_WRBM(6:9),'-oy',k,max_WRBM(10:13),'-og',k,max_WRBM(14:17),'-or',k,max_WRBM(18:21),'-ob','linewidth',2.5)
 grid on
-set(gca, 'fontsize', 18);
+set(gca, 'fontsize', 24);
 xlabel('Hinge stifness [Nm/rad]');
 ylabel('M_z[Nm]');
-title('Max Wing-root Bending Moment ');
+%title('Max Wing-root Bending Moment ');
 legend('75%','81%','84%','88%','93%')
 
 % max vertical displacement
@@ -205,12 +205,12 @@ fprintf('\nMax vertical displacement Hinged wingtip / Baseline:')
 fprintf('\n%f', CVD)
 
 figure;
-semilogx(k, max_CGD(2:5),'-om', k, max_CGD(6:9),'-oy',k,max_CGD(10:13),'-og',k,max_CGD(14:17),'-or',k,max_CGD(18:21),'-ob','linewidth',1.5)
+semilogx(k, max_CGD(2:5),'-om', k, max_CGD(6:9),'-oy',k,max_CGD(10:13),'-og',k,max_CGD(14:17),'-or',k,max_CGD(18:21),'-ob','linewidth',2.5)
 grid on
-set(gca, 'fontsize', 18);
+set(gca, 'fontsize', 24);
 xlabel('Hinge stifness [Nm/rad]');
 ylabel('z [m]');
-title('Max CG vertical displacement');
+%title('Max CG vertical displacement');
 grid on
 legend('75%','81%','84%','88%','93%')
 
@@ -221,28 +221,27 @@ legend('75%','81%','84%','88%','93%')
 %===========================================================================================%
 
 figure; hold on
-plot(time, CG_disp(1,:),'--k','LineWidth',1.5)
-plot(time, CG_disp(13,:),'b','LineWidth',1.5)
-title('CG vertical displacement')
+plot(time, CG_disp(1,:),'--k','LineWidth',2.5)
+plot(time, CG_disp(13,:),'b','LineWidth',2.5)
 xlabel('time [s]')
 ylabel('z [m]')
 grid on
-set(gca,'fontsize',16)
+set(gca,'fontsize',24)
 legend('Baseline','84% high hinge stifness')
-title('Best vertical displacement response')
+%title('Best vertical displacement response')
 
 figure; hold on
-plot(time, WRBM(1,:),'--k','LineWidth',1.5)
-plot(time, WRBM(2,:),'r','LineWidth',1.5)
-plot(time, WRBM(6,:),'color', [0.9961    0.6445    0],'LineWidth',1.5)
-title('WRBM')
+plot(time, WRBM(1,:),'--k','LineWidth',2.5)
+plot(time, WRBM(2,:),'r','LineWidth',2.5)
+plot(time, WRBM(6,:),'color', [0.9961    0.6445    0],'LineWidth',2.5)
 xlabel('time [s]')
 ylabel('Mz [Nm]')
 grid on
-set(gca, 'fontsize', 16);
+set(gca, 'fontsize', 24);
 legend('Baseline','75%, Vlow hinge stiffness','81%, Vlow hinge stiffness')
-title('Best load alleviation')
+%title('Best load alleviation')
 
+%%
 %===========================================================================================%
 %                                                                                           %
 %                                     SAVE DATA                                             %
