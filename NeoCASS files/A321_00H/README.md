@@ -1,6 +1,6 @@
 - __Dynamic__: files for gust analysis
 - __Guess Output__: files which come from GUESS module for structural sizing
-- __Hinge configurations__: input files with diferent hinge position or rotational stiffness
+- __Hinge configurations__: input files with different hinge position or rotational stiffness configuration
 - __Trim__: files for trim analysis
 
 The input files for the analysis are always named in the following way: "name of the AC configuration" + "input3Trim.dat" or "name of the AC configuration" + "inputGust.dat".
