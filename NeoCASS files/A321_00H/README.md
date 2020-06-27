@@ -1,0 +1,4 @@
+- Dynamic: files for gust analysis
+- Guess Output: files which come from GUESS module for structural sizing
+- Hinge configurations: input files with diferent hinge position or rotational stiffness
+- Trim: files for trim analysis
