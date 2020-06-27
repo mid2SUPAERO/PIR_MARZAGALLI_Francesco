@@ -3,4 +3,4 @@
 - Hinge configurations: input files with diferent hinge position or rotational stiffness
 - Trim: files for trim analysis
 
-The input files for the analysis are called A321_Baselin_input3Trim.dat or A321_Baselin_inputGust.dat and they are used in the singlr analysis script A321_BL_runTrim.m and A321_BL_runGust.m
+The input files for the analysis are called _A321_Baselin_input3Trim.dat_ or _A321_Baselin_inputGust.dat_ and they are used in the singlr analysis script _A321_BL_runTrim.m_ and _A321_BL_runGust.m_
